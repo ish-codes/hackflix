@@ -31,7 +31,7 @@ function MovieInfo() {
 		}).then((movie) => {
 			setMovieDetails(movie.data);
 		});
-	}, []);
+	}, [movie_id]);
 
 	return (
 		<section className="poster">
